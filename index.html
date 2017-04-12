@@ -1,13 +1,104 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-</head>
+    <head>
+      <meta charset="utf-8">
+      <title>Music History</title>
+      <link rel="stylesheet" href="main.css">
+    </head>
 
-<body>
-
-
-</body>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Veiw Music</a>
+                <a id="mid-a" href="#">Add Music</a>
+                <a href="#">Profile</a>
+            </nav>
+        </header>
+        <div id="main-content">
+            <main>
+                <div>
+                    <ul id="song-list">
+                        <li>Song Name</li>
+                        <ul class="song-info">
+                            <li>Artist name</li>
+                            <li class="braced">Album name</li>
+                            <li>Genre</li>
+                        </ul>
+                        <li>Song Name</li>
+                        <ul class="song-info">
+                            <li>Artist name</li>
+                            <li class="braced">Album name</li>
+                            <li>Genre</li>
+                        </ul>
+                        <li>Song Name</li>
+                        <ul class="song-info">
+                            <li>Artist name</li>
+                            <li class="braced">Album name</li>
+                            <li>Genre</li>
+                        </ul>
+                        <li>Song Name</li>
+                        <ul class="song-info">
+                            <li>Artist name</li>
+                            <li class="braced">Album name</li>
+                            <li>Genre</li>
+                        </ul>
+                    </ul>
+                </div>
+            </main>
+            <aside>
+                <div id="song-length">
+                    <label>
+                        Song Length:
+                        <input type="range" name="songLength" value="" placeholder="50">
+                    </label>
+                </div>
+                <div id="artist">
+                    <label>
+                        Artist:<br>
+                        <select name="Artist">
+                            <option value="">Options</option>
+                        </select>
+                    </label><br>
+                </div>
+                <div id="album">
+                    <label>
+                        Album:<br>
+                        <select name="Album">
+                            <option value="">Options</option>
+                        </select>
+                    </label>
+                </div>
+                <label>Genre:</label>
+                    <div id="radio-grid">
+                        <div id="col1">
+                            <section>
+                                <input type="checkbox" name="genre" value="Rock">Rock
+                            </section>
+                            <section>
+                                <input type="checkbox" name="genre" value="Pop">Pop
+                            </section>
+                            <section>
+                                <input type="checkbox" name="genre" value="Blues">Blues
+                            </section>
+                        </div>
+                        <div id="col2">
+                            <section>
+                                <input type="checkbox" name="genre" value="Classical">Classical
+                            </section>
+                            <section>
+                                <input type="checkbox" name="genre" value="Jazz">Jazz
+                            </section>
+                            <section>
+                                <input type="checkbox" name="genre" value="Hip-Hop">Hip hop
+                            </section>
+                        </div>
+                        <section id="sort">
+                                <input type="button" name="Sort" value="Sort">
+                        </section>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </body>
 </html>
