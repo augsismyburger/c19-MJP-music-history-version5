@@ -37,27 +37,15 @@ aside {
     background-color: #4DD7FA;
     padding: 1em;
 }
-#song-length input {
-    max-width: 90%;
-}
-#song-list {
-}
-ul.song-info {
-    padding-left: 0;
-}
-.song-info {
-    display: flex;
+.js-info {
+    display: inline-block;
     margin: 1em;
     list-style: none;
 }
-.song-info li {
-    padding: 0 .5em;
+#song-flex {
+    display: flex;
 }
-.braced {
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-}
-#song-list > li {
+#js-song {
     font-size: 1.5em;
     color: #785616;
     list-style: none;
@@ -90,4 +78,7 @@ ul.song-info {
 }
 section {
     display: flex;
+}
+#song-length input {
+    max-width: 100%;
 }
