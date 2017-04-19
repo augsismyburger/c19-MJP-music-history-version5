@@ -10,9 +10,9 @@
     <body>
         <header>
             <nav>
-                <a href="index.html">Veiw Music</a>
-                <a id="mid-a" href="#">Add Music</a>
-                <a href="#">Profile</a>
+                <button type="button" id="view-music">Veiw Music</button> <strong>|</strong>
+                <button type="button" id="add-music">Add Music</button>
+                <!-- <a href="#">Profile</a> -->
             </nav>
         </header>
         <div id="main-content">
@@ -75,6 +75,15 @@
                     </div>
                 </div>
             </aside>
+        </div>
+        <div id="add-music-div" class="hidden">
+            <div id="flexbox">
+                <h2>Add a Song</h2>
+                <label>Song Name:  <input type="text" name="Song Name" id="new-song"></label>
+                <label>Artist:  <input type="text" name="Artist" id="new-artist"></label>
+                <label>Album:  <input type="text" name="Album" id="new-album"></label><br><br>
+                <button type="button" id="new-song-button">Add Song</button>
+            </div>
         </div>
         <script src="main.js" type="text/javascript" charset="utf-8" async></script>
     </body>

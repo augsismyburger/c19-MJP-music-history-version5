@@ -1,3 +1,10 @@
+header {
+}
+header button {
+    background-color: inherit;
+    font-weight: bold;
+}
+
 #main-content {
     font-family: sans-serif;
     display: flex;
@@ -81,4 +88,32 @@ section {
 }
 #song-length input {
     max-width: 100%;
+}
+/*HIDDEN ELEMENTS*/
+.hidden {
+    display: none;
+    visibility: collapse;
+}
+#add-music-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20%;
+}
+#flexbox {
+    position: absolute;
+    Left: 150px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #FEFAC0;
+    padding: 1em;
+    border: 3px solid black;
+}
+#flexbox h2, button {
+    align-self: center;
+}
+#flexbox label {
+    margin: .5em 0;
+    font-weight: bold;
 }
