@@ -1,0 +1,119 @@
+header {
+}
+header button {
+    background-color: inherit;
+    font-weight: bold;
+}
+
+#main-content {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    border: 3px solid black;
+    background-color: #FFB4B0;
+    margin-bottom: 2em;
+}
+nav {
+    padding: 1em;
+}
+nav a {
+    color: blue;
+    text-decoration: none;
+    padding: 0 .25em;
+}
+nav a:visited {
+    color: black;
+}
+#mid-a {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+main {
+    border: 3px solid black;
+    width: 70%;
+    background-color: #FEFAC0;
+
+}
+aside {
+    border: 3px solid black;
+    width: 20%;
+    background-color: #4DD7FA;
+    padding: 1em;
+}
+.js-info {
+    display: inline-block;
+    margin: 1em;
+    list-style: none;
+}
+#song-flex {
+    display: flex;
+}
+#js-song {
+    font-size: 1.5em;
+    color: #785616;
+    list-style: none;
+}
+#radio-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#col1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom: 0;
+}
+#col2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+    padding-bottom: 0;
+}
+#sort {
+    margin-top: 2em;
+    display: flex;
+}
+#sort input {
+    width: 5em;
+    align-self: auto;
+}
+section {
+    display: flex;
+}
+#song-length input {
+    max-width: 100%;
+}
+/*HIDDEN ELEMENTS*/
+.hidden {
+    display: none;
+    visibility: collapse;
+}
+#add-music-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20%;
+}
+#flexbox {
+    position: absolute;
+    Left: 150px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #FEFAC0;
+    padding: 1em;
+    border: 3px solid black;
+}
+#flexbox h2, button {
+    align-self: center;
+}
+#flexbox label {
+    margin: .5em 0;
+    font-weight: bold;
+}
