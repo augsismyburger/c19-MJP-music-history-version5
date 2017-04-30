@@ -4,7 +4,7 @@
     <head>
       <meta charset="utf-8">
       <title>Music History</title>
-      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
@@ -20,6 +20,9 @@
                 <div id="song-flex">
                     <ul id="song-list">
                     </ul>
+                </div>
+                <div>
+                 <button type="button" id="more-button">More ></button>
                 </div>
             </main>
             <aside>
@@ -84,7 +87,17 @@
                 <label>Album:  <input type="text" name="Album" id="new-album"></label><br><br>
                 <button type="button" id="new-song-button">Add Song</button>
             </div>
+            <div>
+                <h2>Title</h2>
+                <div id="song-titles"></div>
+                <hr>
+                <h2>Artist</h2>
+                <div id="artist-list"></div>
+                <hr>
+                <h2>Album</h2>
+                <div id="album-names"></div>
+            </div>
         </div>
-        <script src="main.js" type="text/javascript" charset="utf-8" async></script>
+        <script src="javascripts/new-main.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>

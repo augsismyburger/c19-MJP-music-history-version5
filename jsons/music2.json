@@ -1,0 +1,63 @@
+[
+    {
+
+        "title" : "You Can Call Me Al",
+        "artist" : "Paul Simon",
+        "album" : "Graceland",
+        "genre" : "rock"
+    },
+    {
+        "title" : "Tell Her About It",
+        "artist" : "Billy Joel",
+        "album" : "An Innocent Man",
+        "genre" : ""
+    },
+    {
+        "title" : "Somebody's Baby",
+        "artist" : "Jackson Browne",
+        "album" : "The Next Voice You Hear",
+        "genre" : ""
+    },
+    {
+        "title" : "All Of A Sudden",
+        "artist" : "Joe Walsh",
+        "album" : "Ordinary Average Guy",
+        "genre" : "pop"
+    },
+    {
+        "title" : "Forver Young",
+        "artist" : "Rod Stewart",
+        "album" : "Out Of Order",
+        "genre" : ""
+    },
+    {
+        "title" : "Reelin' In The Years",
+        "artist" : "Steely Dan",
+        "album" : "Can't Buy A Thrill",
+        "genre" : ""
+    },
+    {
+        "title" : "Don't Worry Baby",
+        "artist" : "The Beach Boys",
+        "album" : "Shut Down Vol. 2",
+        "genre" : ""
+    },
+    {
+        "title" : "Killer Whales",
+        "artist" : "James Vincent McMorrow",
+        "album" : "We Move",
+        "genre" : ""
+    },
+    {
+        "title" : "Can I Stay",
+        "artist" : "Ray LaMontagne",
+        "album" : "Till The Sun Turns Black",
+        "genre" : ""
+    },
+    {
+        "title" : "Come on Make It Right Once",
+        "artist" : "Beta Radio",
+        "album" : "Colony of Bees",
+        "genre" : ""
+    }
+]
