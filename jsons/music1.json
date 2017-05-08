@@ -1,0 +1,64 @@
+[
+    {
+
+        "title" : "O' Be Joyful",
+        "artist" : "Shovels & Rope",
+        "album" : "O' Be Joyful",
+        "genre" : "alt"
+    },
+    {
+        "title" : "Wrapped In Piano Strings",
+        "artist" : "Radical Face",
+        "album" : "Ghost",
+        "genre" : "alt"
+    },
+    {
+        "title" : "Cruel World",
+        "artist" : "Phantogram",
+        "album" : "Three",
+        "genre" : "alt"
+    },
+    {
+        "title" : "Alone",
+        "artist" : "Heart",
+        "album" : "Bad Animals",
+        "genre" : "pop"
+    },
+    {
+        "title" : "Wake Me",
+        "artist" : "Bleachers",
+        "album" : "Strange Desire",
+        "genre" : ""
+    },
+    {
+        "title" : "Ritual Union",
+        "artist" : "Little Dragon",
+        "album" : "Ritual Union",
+        "genre" : ""
+    },
+    {
+        "title" : "Bad Moon Rising",
+        "artist" : "Creedence Clearwater Revival",
+        "album" : "Green River",
+        "genre" : ""
+    },
+    {
+        "title" : "All Along the Watchtower",
+        "artist" : "Jimi Hendrix",
+        "album" : "Electric Lady",
+        "genre" : ""
+    },
+    {
+        "title" : "Pony",
+        "artist" : "Ginuwine",
+        "album" : "From Doo-Wop to Hip-Hop",
+        "genre" : ""
+    },
+    {
+        "title" : "Hey Hey What Can I Do",
+        "artist" : "Led Zeppelin",
+        "album" : "Coda",
+        "genre" : ""
+    }
+]
+
